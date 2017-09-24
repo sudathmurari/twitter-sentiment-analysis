@@ -4,7 +4,7 @@ Created on Thu Mar  2 12:51:55 2017
 
 @author: Sudath
 """
-# Import relevant functions and libraries
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -152,4 +152,4 @@ def tweetscrape(startdate, enddate, numscroll):
     if __name__ == "__main__":
         blogxtract(url)
 
-tweetscrape(startdate = "2016-10-16", enddate = "2016-10-17", numscroll = 2000)
+tweetscrape(startdate = "2016-08-07", enddate = "2016-08-08", numscroll = 3000)
